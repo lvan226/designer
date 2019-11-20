@@ -1,0 +1,40 @@
+@mixin sf300 {
+  font-family: 'SF Pro Display';
+  font-weight: 300;
+}
+@mixin sf400 {
+  font-family: 'SF Pro Display';
+  font-weight: 400;
+}
+@mixin sf600 {
+  font-family: 'SF Pro Display';
+  font-weight: 600;
+}
+@mixin sf700 {
+  font-family: 'SFProDisplay-Bold';
+  font-weight: 700;
+}
+@mixin fg {
+  font-family: 'Georgia';
+  font-weight: 400;
+}
+@mixin full {
+  height: 100vh;
+}
+@mixin overlay {
+  position: relative;
+  z-index: -2;
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #000;
+    opacity: 0.7;
+    z-index: -1;
+  }
+}
+$grey: #9f9f9f;
+$red: #da332f;

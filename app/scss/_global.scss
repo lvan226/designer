@@ -1,0 +1,102 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  @include sf400;
+  line-height: 24px;
+  color: #000;
+  background: #fff url(../images/fon-body.png) center repeat;
+  background-size: cover;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+@media (max-width: 340px) {
+  .container {
+    max-width: 320px;
+    padding: 0px 16px;
+  }
+}
+
+.container-full {
+  max-width: 1920px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.title {
+  font-size: 48px;
+  line-height: 48px;
+  @include sf700;
+  text-transform: uppercase;
+  margin-bottom: 70px;
+  color: #000;
+}
+
+.suptitle {
+  font-size: 24px;
+  line-height: 24px;
+  @include sf700;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  margin-left: 1px;
+  color: $red;
+}
+
+.title-left {
+  margin-left: 160px;
+}
+.title-right {
+  max-width: 580px;
+  margin-left: auto;
+}
+.btn {
+  color: #ffffff;
+  @include sf400;
+  font-size: 18px;
+  text-transform: uppercase;
+  border-radius: 33px;
+  background-color: transparent;
+  border: 2px solid $red;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
