@@ -38,4 +38,34 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'Georgia';
+  src: url('../fonts/Georgia-Bold.woff2') format('woff2'),
+      url('../fonts/Georgia-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
 
+@font-face {
+  font-family: 'SF UI  Text';
+  src: url('../fonts/SFUIText-Regular.woff2') format('woff2'),
+      url('../fonts/SFUIText-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SF UI  Text';
+  src: url('../fonts/SFUIText-Light.woff2') format('woff2'),
+      url('../fonts/SFUIText-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SF UI  Text';
+  src: url('../fonts/SFUIText-Bold.woff2') format('woff2'),
+      url('../fonts/SFUIText-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}

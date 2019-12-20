@@ -7,9 +7,211 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Design</title>
   <link rel="stylesheet" href="css/style.min.css">
+  <!-- Yandex.Metrika counter --> <script type="text/javascript" > (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js", "ym"); ym(56743327, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, trackHash:true }); </script> <noscript><div><img src="https://mc.yandex.ru/watch/56743327" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
 </head>
 
 <body>
+  <div class="protect">
+    <button class="protect__close">
+      <span></span>
+      <span></span>
+    </button>
+    <div class="protect__inner">
+      <div class="protect__title">
+        Конфиденциальность и защита
+        информации
+      </div>
+      <ul>
+        <li><span>1.</span> Персональные данные Посетителя обрабатываются в соответствии с ФЗ «О персональных данных»
+          №
+          152-ФЗ.</li>
+        <li><span>2.</span> При отправке формы обратной связи Посетитель предоставляет следующую информацию: имя,
+          контактный номер телефона, адрес электронной почты.</li>
+        <li><span>3.</span> Предоставляя свои персональные данные Владельцу сайта, Посетитель соглашается на их
+          обработку Владельцем сайта, в том числе в целях выполнения Владельцем сайта обязательств перед Посетителем.
+        </li>
+        <li><span>4.</span> Под обработкой персональных данных понимается любое действие (операция) или совокупность
+          действий (операций), совершаемых с использованием средств автоматизации или без использования таких средств
+          с
+          персональными данными, включая сбор, запись, систематизацию, накопление, хранение, уточнение (обновление,
+          изменение) извлечение, использование, передачу (в том числе передачу третьим лицам, не исключая
+          трансграничную
+          передачу, если необходимость в ней возникла в ходе исполнения обязательств), обезличивание, блокирование,
+          удаление, уничтожение персональных данных.</li>
+        <li><span>5.</span> Владелец сайта вправе использовать технологию «cookies». «Cookies» не содержат
+          конфиденциальную информацию. Посетитель настоящим дает согласие на сбор, анализ и использование cookies, в
+          том
+          числе третьими лицами для целей формирования статистики и оптимизации рекламных сообщений.</li>
+        <li><span>6.</span> Владелец сайта получает информацию об ip-адресе Посетителя. Данная информация не
+          используется для установления личности посетителя.</li>
+        <li><span>7.</span> Владелец сайта вправе осуществлять записи телефонных разговоров с Покупателем. При этом
+          Владелец сайта обязуется: предотвращать попытки несанкционированного доступа к информации, полученной в ходе
+          телефонных переговоров, и/или передачу ее третьим лицам, не имеющим непосредственного отношения к
+          взаимодействию между Владельцем сайта и Посетителем, в соответствии с п. 4 ст. 16 Федерального закона «Об
+          информации, информационных технологиях и о защите информации».</li>
+      </ul>
+    </div>
+  </div>
+  <div class="overlay-body"></div>
+
+  <div class="modal" id="modal">
+    <div class="modal__close">
+      <span></span>
+      <span></span>
+    </div>
+    <div class="modal__inner">
+      <div class="modal__title">Сотрудничество</div>
+      <form>
+        <input type="text" name="Название формы" value="Основная форма" style="display: none !important;">
+        <!-- Hidden Required Fields -->
+        <input type="hidden" name="project_name" value="Designer">
+        <input type="hidden" name="admin_email" value="info@lvan-dyadyura.ru">
+        <input type="hidden" name="form_subject" value="Заявка с сайта">
+        <!-- END Hidden Required Fields -->
+        <div class="modal__line">
+          <div class="modal-box__line">
+            <input name="username" type="text" placeholder="Имя">
+          </div>
+          <div class="modal-box__line">
+            <input name="company" type="text" placeholder="Название компании">
+          </div>
+          <div class="modal-box__line">
+            <input name="phone" class="phone" type="tel" placeholder="Телефон">
+          </div>
+          <div class="modal-box__line">
+            <input name="email" type="email" placeholder="E-mail">
+          </div>
+        </div>
+        <textarea name="mess" placeholder="Ваше сообщение"></textarea>
+        <input name="checkin" type="checkbox" checked>
+        <span class="modal__agree">Нажимая на кнопку, вы даете <a href="protect.html" target="_blank">согласие</a> на
+          обработку персональных данных
+          и соглашаетесь с политикой конфиденциальности.</a>
+        </span>
+        <button type="submit" class="btn button"><div class="div1"></div><div class="div2"></div>Свяжитесь со мной</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="modal" id="small">
+    <div class="modal__close">
+      <span></span>
+      <span></span>
+    </div>
+    <div class="modal__inner">
+      <div class="modal__title">Сотрудничество</div>
+      <form>
+        <input type="text" name="Название формы" value="Тариф Small" style="display: none !important;">
+        <!-- Hidden Required Fields -->
+        <input type="hidden" name="project_name" value="Designer">
+        <input type="hidden" name="admin_email" value="info@lvan-dyadyura.ru">
+        <input type="hidden" name="form_subject" value="Заявка с сайта">
+        <!-- END Hidden Required Fields -->
+        <div class="modal__line">
+          <div class="modal-box__line">
+            <input name="username" type="text" placeholder="Имя">
+          </div>
+          <div class="modal-box__line">
+            <input name="company" type="text" placeholder="Название компании">
+          </div>
+          <div class="modal-box__line">
+            <input name="phone" class="phone" type="tel" placeholder="Телефон">
+          </div>
+          <div class="modal-box__line">
+            <input name="email" type="email" placeholder="E-mail">
+          </div>
+        </div>
+        <textarea name="mess" placeholder="Ваше сообщение"></textarea>
+        <input name="checkin" type="checkbox" checked>
+        <span class="modal__agree">Нажимая на кнопку, вы даете <a href="protect.html" target="_blank">согласие</a> на
+          обработку персональных данных
+          и соглашаетесь с политикой конфиденциальности.</a>
+        </span>
+        <button type="submit" class="btn button"><div class="div1"></div><div class="div2"></div>Свяжитесь со мной</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="modal" id="medium">
+    <div class="modal__close">
+      <span></span>
+      <span></span>
+    </div>
+    <div class="modal__inner">
+      <div class="modal__title">Тариф Medium</div>
+      <form>
+        <input type="text" name="Название формы" value="Тариф Medium" style="display: none !important;">
+        <!-- Hidden Required Fields -->
+        <input type="hidden" name="project_name" value="Designer">
+        <input type="hidden" name="admin_email" value="info@lvan-dyadyura.ru">
+        <input type="hidden" name="form_subject" value="Заявка с сайта">
+        <!-- END Hidden Required Fields -->
+        <div class="modal__line">
+          <div class="modal-box__line">
+            <input name="username" type="text" placeholder="Имя">
+          </div>
+          <div class="modal-box__line">
+            <input name="company" type="text" placeholder="Название компании">
+          </div>
+          <div class="modal-box__line">
+            <input name="phone" class="phone" type="tel" placeholder="Телефон">
+          </div>
+          <div class="modal-box__line">
+            <input name="email" type="email" placeholder="E-mail">
+          </div>
+        </div>
+        <textarea name="mess" placeholder="Ваше сообщение"></textarea>
+        <input name="checkin" type="checkbox" checked>
+        <span class="modal__agree">Нажимая на кнопку, вы даете <a href="protect.html" target="_blank">согласие</a> на
+          обработку персональных данных
+          и соглашаетесь с политикой конфиденциальности.</a>
+        </span>
+        <button type="submit" class="btn button"><div class="div1"></div><div class="div2"></div>Свяжитесь со мной</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="modal" id="large">
+    <div class="modal__close">
+      <span></span>
+      <span></span>
+    </div>
+    <div class="modal__inner">
+      <div class="modal__title">Сотрудничество</div>
+      <form>
+        <input type="text" name="Название формы" value="Тариф Large" style="display: none !important;">
+        <!-- Hidden Required Fields -->
+        <input type="hidden" name="project_name" value="Designer">
+        <input type="hidden" name="admin_email" value="info@lvan-dyadyura.ru">
+        <input type="hidden" name="form_subject" value="Заявка с сайта">
+        <!-- END Hidden Required Fields -->
+        <div class="modal__line">
+          <div class="modal-box__line">
+            <input name="username" type="text" placeholder="Имя">
+          </div>
+          <div class="modal-box__line">
+            <input name="company" type="text" placeholder="Название компании">
+          </div>
+          <div class="modal-box__line">
+            <input name="phone" class="phone" type="tel" placeholder="Телефон">
+          </div>
+          <div class="modal-box__line">
+            <input name="email" type="email" placeholder="E-mail">
+          </div>
+        </div>
+        <textarea name="mess" placeholder="Ваше сообщение"></textarea>
+        <input name="checkin" type="checkbox" checked>
+        <span class="modal__agree">Нажимая на кнопку, вы даете <a href="protect.html" target="_blank">согласие</a> на
+          обработку персональных данных
+          и соглашаетесь с политикой конфиденциальности.</a>
+        </span>
+        <button type="submit" class="btn button"><div class="div1"></div><div class="div2"></div>Свяжитесь со мной</button>
+      </form>
+    </div>
+  </div>
+
+  <button class="list-prev list-btn"><img src="images/list-btn.png" alt=""></button>
+  <button class="list-next list-btn"><img src="images/list-btn.png" alt=""></button>
   <div class="wrap-burger">
     <div class="header-burger">
       <div class="me">МЕ</div>
@@ -26,503 +228,619 @@
       <li><a href="#fourPage">Преимущества</a></li>
       <li><a href="#fivePage">Для бизнеса</a></li>
       <li><a href="#sixPage">Портфолио</a></li>
-      <li><a href="">Консультация</a></li>
-      <li><a href="">Отзывы</a></li>
-      <li><a href="">Гарантии</a></li>
-      <li><a href="">Услуги</a></li>
-      <li><a href="">Обсудить</a></li>
+      <li><a href="#sevenPage">Консультация</a></li>
+      <li><a href="#eightPage">Отзывы</a></li>
+      <li><a href="#ninePage">Гарантии</a></li>
+      <li><a href="#tenPage">Услуги</a></li>
+      <li><a href="#elevenPage">Обсудить</a></li>
     </ul>
   </nav>
-  <div id="fullpage">
-    <div class="section header-wrap">
-      <header class="header">
-        <div class="container-full">
-          <a href="#" class="header-logo">
-            <img src="images/header/header-logo.png" alt="Логотип">
-          </a>
+
+  <div class="wrap">
+    <div class="menu-left"></div>
+    <div id="fullpage">
+      <div class="section header-wrap active">
+        <header class="header">
+          <div class="container-full">
+            <a href="#" class="header-logo">
+              <img src="images/header/header-logo.png" alt="Логотип">
+            </a>
+            <div class="container">
+              <div class="header__inner">
+                <div class="header__text">Инструменты для продаж</div>
+                <a class="header__email header__link" href="mailto:info@podosenovweb.ru">
+                  <span class="link__text">
+                    info@podosenovweb.ru
+                  </span>
+                </a>
+                <a class="header__phone header__link" href="tel:79517358945">
+                  <span class="link__text">
+                    +7 (951) 735-89-45
+                  </span></a>
+                <button class="header__btn"><span>Обсудить условия</span></button>
+              </div>
+            </div>
+            <!-- /.container -->
+          </div>
+          <!-- /.container-full -->
+        </header>
+
+        <section class="main">
+          <!-- /.menu -->
           <div class="container">
-            <div class="header__inner">
-              <div class="header__text">Инструменты для продаж</div>
-              <a class="header__email" href="#">info@podosenovweb.ru</a>
-              <a class="header__phone" href="tel:79517358945">+7 (951) 735-89-45</a>
-              <a href="" class="header__btn">Обсудить условия</a>
-              <!-- <div class="header-burger">
-                <div class="me">МЕ</div>
-                <span></span>
-                <span></span>
-                <div class="nu">НЮ</div>
-              </div> -->
-              <!-- <div class="header__menu">
-                <nav>
-                  <ul id="header-menu">
-                    <li><a href="#firstPage">Главная</a></li>
-                    <li><a href="#secondPage">О нас</a></li>
-                    <li><a href="#thirdPage">Цитата</a></li>
-                    <li><a href="#fourPage">Преимущества</a></li>
-                    <li><a href="#fivePage">Для бизнеса</a></li>
-                    <li><a href="">Портфолио</a></li>
-                    <li><a href="">Консультация</a></li>
-                    <li><a href="">Отзывы</a></li>
-                    <li><a href="">Гарантии</a></li>
-                    <li><a href="">Услуги</a></li>
-                    <li><a href="">Обсудить</a></li>
-                  </ul>
-                </nav>
-              </div> -->
+            <div class="main__inner">
+              <h2 class="title main__title">
+                создаём не просто сайты,
+                а Инструменты для продаж
+              </h2>
+              <div class="main__subtitle">
+                Получите бесплатную консультацию по своему проекту
+                и узнайте структуру вашего будущего сайта
+              </div>
+              <button class="main__btn-get"><span>Получить консультацию</span></button>
+            </div>
+            <div class="main__social">
+              <span>Folow us</span>
+              <a href="https://vk.com/podosenovweb"><img src="images/header/VK.png" alt="Вконтакте"></a>
+              <a href="https://www.instagram.com/podosenov.web/"><img src="images/header/Inst.png" alt="Instagram"></a>
+              <a href="https://www.facebook.com/podosenovweb"><img src="images/header/FB.png" alt="Facebook"></a>
             </div>
           </div>
           <!-- /.container -->
-        </div>
-        <!-- /.container-full -->
-      </header>
 
-      <section class="main">
-        <!-- /.menu -->
+          <!-- /.container-full -->
+        </section>
+      </div>
+
+      <section class="about section" id="about">
         <div class="container">
-          <div class="main__inner">
-            <h2 class="title main__title">
-              создаём не просто сайты,
-              а Инструменты для продаж
-            </h2>
-            <div class="main__subtitle">
-              Получите бесплатную консультацию по своему проекту
-              и узнайте структуру вашего будущего сайта
+          <div class="about__inner">
+            <div class="title-left">
+              <div class="about__suptitle suptitle">
+                о нас
+              </div>
+              <h2 class="about__title title">
+                Что такое air?
+              </h2>
             </div>
-            <button class="main__btn-get">Получить консультацию</button>
+            <p class="about__text">
+              Меня зовут Вячеслав Подосёнов и это не просто веб-студия. Это история про людей, которые живут,
+              наслаждаются
+              и дышат своей работой. Это комплексный подход, когда один элемент живёт в согласованности со всеми
+              остальными.
+              Это объединение молодых и креативных специалистов, которых не поглотила рутина традиционного бизнеса.
+            </p>
+            <p class="about__text">
+              Наша команда работает над решением клиентских проблем, над созданием нового облика бренда. Такого облика,
+              который выделяется на фоне конкурентов, который привлекает и радует глаз покупателей. Наша философия
+              отвергает
+              исключительный денежный интерес — он не даёт такого вдохновения, такой мотивации к работе,
+              как внутренние мотивы. И наконец, это глоток свежего воздуха в мире одинаковых, приторных и однобоких
+              сайтов.
+            </p>
+            <div class="about-item__wrap">
+
+              <div class="about-item">
+                <span class="about-item__num item1">0</span>
+                <div class="about-item__content">
+                  <div>проекта</div>
+                  выполнено за 2019 год
+                </div>
+              </div>
+              <div class="about-item">
+                <span class="about-item__num item2">0</span>
+                <div class="about-item__content">
+                  <div>дней среднее</div>
+                  выполнение проекта
+                </div>
+              </div>
+              <div class="about-item">
+                <span class="about-item__num item3">0</span>
+                <div class="about-item__content">
+                  <div>сотрудников</div>
+                  в нашей команде
+                </div>
+              </div>
+
+            </div>
           </div>
-          <div class="main__social">
-            <span>Folow us</span>
-            <a href="#"><img src="images/header/VK.png" alt="Вконтакте"></a>
-            <a href="#"><img src="images/header/Inst.png" alt="Instagram"></a>
-            <a href="#"><img src="images/header/FB.png" alt="Facebook"></a>
-          </div>
+          <!-- /.about__inner -->
         </div>
         <!-- /.container -->
-
-        <!-- /.container-full -->
       </section>
-    </div>
 
-    <section class="about section" id="about">
-      <div class="container">
-        <div class="about__inner">
-          <div class="title-left">
-            <div class="about__suptitle suptitle">
-              о нас
-            </div>
-            <h2 class="about__title title">
-              Что такое air?
-            </h2>
-          </div>
-          <p class="about__text">
-            Меня зовут Вячеслав Подосёнов и это не просто веб-студия. Это история про людей, которые живут, наслаждаются
-            и дышат своей работой. Это комплексный подход, когда один элемент живёт в согласованности со всеми
-            остальными.
-            Это объединение молодых и креативных специалистов, которых не поглотила рутина традиционного бизнеса.
-          </p>
-          <p class="about__text">
-            Наша команда работает над решением клиентских проблем, над созданием нового облика бренда. Такого облика,
-            который выделяется на фоне конкурентов, который привлекает и радует глаз покупателей. Наша философия
-            отвергает
-            исключительный денежный интерес — он не даёт такого вдохновения, такой мотивации к работе,
-            как внутренние мотивы. И наконец, это глоток свежего воздуха в мире одинаковых, приторных и однобоких
-            сайтов.
-          </p>
-          <div class="about-item__wrap">
-
-            <div class="about-item">
-              <span class="about-item__num item1">0</span>
-              <div class="about-item__content">
-                <div>проекта</div>
-                выполнено за 2019 год
-              </div>
-            </div>
-            <div class="about-item">
-              <span class="about-item__num item2">0</span>
-              <div class="about-item__content">
-                <div>дней среднее</div>
-                выполнение проекта
-              </div>
-            </div>
-            <div class="about-item">
-              <span class="about-item__num item3">0</span>
-              <div class="about-item__content">
-                <div>сотрудников</div>
-                в нашей команде
-              </div>
-            </div>
-
-          </div>
-        </div>
-        <!-- /.about__inner -->
-      </div>
-      <!-- /.container -->
-    </section>
-
-    <section class="first-step section" style="background-image: url(images/first-step-bg.jpg);">
-      <div class="container">
-        <h2 class="first-step__title title">
-          Первый шаг к завоеванию доверия клиентов — сделать так, чтобы ваш сайт выглядел профессионально.
-        </h2>
-      </div>
-    </section>
-
-    <section class="advantages section">
-      <div class="container">
-        <div class="advantages__inner">
-          <div class="advantages__view">
-            <div class="tab-content">
-              <div class="tab" data-tab="1">
-                <img alt="" src="images/advantages/33.png" data-src="images/advantages/33.png">
-                <p>
-                  11111111111111111111111
-                </p>
-              </div>
-              <div class="tab" data-tab="2">
-                <img alt="" src="images/advantages/33.png" data-src="images/advantages/33.png">
-                <p>2222222222222222222222222</p>
-              </div>
-              <div class="tab active" data-tab="3">
-                <img alt="" src="images/advantages/33.png" data-src="images/advantages/33.png">
-                <p>
-                  Наша команда постоянно внедряет актуальные новинки, в том числе и многоуровневые анимации, следит за
-                  трендами и основными направлениями в дизайне.
-                </p>
-              </div>
-              <div class="tab" data-tab="4">
-                <img alt="" src="images/advantages/33.png" data-src="images/advantages/33.png">
-                <p>3333333333333333333</p>
-              </div>
-              <div class="tab" data-tab="5">
-                <img alt="" src="images/advantages/33.png" data-src="images/advantages/33.png">
-                <p>55555555555555</p>
-              </div>
-              <div class="tab" data-tab="6">
-                <img alt="" src="images/advantages/33.png" data-src="images/advantages/33.png">
-                <p>66666666666666</p>
-              </div>
-            </div>
-          </div>
-          <div class="advantages__info">
-            <h2 class="advantages__title title">Преимущества</h2>
-            <div class="tabs">
-              <div class="tab" data-tab="1">
-                <img alt="" src="images/advantages/1.png" data-src="images/advantages/1.png">
-                <p>
-                  Комплексный
-                  опыт
-                </p>
-              </div>
-              <div class="tab" data-tab="2">
-                <img alt="" src="images/advantages/2.png" data-src="images/advantages/2.png">
-                <p>
-                  Взаимосвязь
-                </p>
-              </div>
-              <div class="tab" data-tab="3">
-                <img alt="" src="images/advantages/3.png" data-src="images/advantages/3.png">
-                <p>
-                  Актуальность
-                  и свежесть
-                </p>
-              </div>
-              <div class="tab" data-tab="4">
-                <img alt="" src="images/advantages/4.png" data-src="images/advantages/4.png">
-                <p>
-                  Оперативность
-                </p>
-              </div>
-              <div class="tab" data-tab="5">
-                <img alt="" src="images/advantages/5.png" data-src="images/advantages/5.png">
-                <p>
-                  Гибкость
-                  сроков
-                </p>
-              </div>
-              <div class="tab" data-tab="6">
-                <img alt="" src="images/advantages/6.png" data-src="images/advantages/6.png">
-                <p>
-                  Портфолио
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- /.advantages__inner -->
-      </div>
-      <!-- /.container -->
-    </section>
-
-    <section class="site section">
-      <div class="container">
-        <div class="site__inner">
-          <div class="site__reason">
-            <h2 class="site__title title">
-              Зачем бизнесу сайт?
-            </h2>
-            <div class="site__text">
-              Сайт — это ваш деловой партнёр, продюсер
-              и менеджер по продажам, который может взять
-              на себя львиную долю работы, связанную с поиском клиентов, продажей ваших продуктов и услуг.
-            </div>
-
-          </div>
-          <div class="site__list">
-            <ul>
-              <li data-id="1">1 Имидж компании</li>
-              <li data-id="2">2 Отсутствие гонки</li>
-              <li data-id="3">3 Важно для клиентов</li>
-              <li data-id="4">4 Подробная аналитика</li>
-              <li data-id="5">5 Собственная территория</li>
-              <li data-id="6">6 Бесконечные расширения</li>
-              <li data-id="7">7 Привлечение новых клиентов</li>
-            </ul>
-            <div class="site-item__wrap">
-              <div class="site-item" data-id="1">
-                <p>
-                  Наличие сайта показывает клиентам, что компания беспокоится о своем имидже и хочет чтобы
-                  к ней относились серьезно.
-                </p>
-                <span class="close"></span>
-              </div>
-              <div class="site-item" data-id="2">
-                <p>
-                  На сайте нет нужды писать посты каждый день, как в социальных сетях. Достаточно один раз правильно
-                  настроить сайт, чтобы он работал.
-                </p>
-                <span class="close"></span>
-              </div>
-              <div class="site-item" data-id="3">
-                <p>
-                  Клиентам на сайте проще искать информацию. К тому же, сайт - гарант надежности. Его намного сложнее
-                  создать, чем группу в социальных сетях.
-                </p>
-                <span class="close"></span>
-              </div>
-              <div class="site-item" data-id="4">
-                <p>
-                  К сайту можно подключить, систему аналитики.
-                  С помощью неё можно узнать всё: куда кликают клиенты, куда смотрят, какие разделы чаще посещают.
-                </p>
-                <span class="close"></span>
-              </div>
-              <div class="site-item" data-id="5">
-                <p>
-                  Страница в соцсетях, как съемная квартира — принадлежит не вам. Полностью привязываться
-                  к ним — хождение по тонкому льду. Вспомните
-                  хотя бы «умную ленту», благодаря которой, многие просто перестали существовать в новостной ленте.
-                </p>
-                <span class="close"></span>
-              </div>
-              <div class="site-item" data-id="6">
-                <p>
-                  Дизайн и структуру сайта, можно сделать по любому вкусу. Можно подключить форум или магазин, закрытые
-                  разделы, создать рассылку.
-                </p>
-                <span class="close"></span>
-              </div>
-              <div class="site-item" data-id="7">
-                <p>
-                  Как минимум 30% ваших клиентов узнает о вас благодаря сайту. Со временем этот показатель будет только
-                  расти. Учитывая популярность интернета, сайт окупит себя через пару месяцев, а то и недель.
-                </p>
-                <span class="close"></span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="works section">
-      <div class="container">
-        <div class="works__inner">
-
-          <div class="title-left">
-            <div class="suptitle">Портфолио</div>
-            <h2 class="title works__title">
-              Последние работы
-            </h2>
-          </div>
-
-          <div class="works__item-wrap">
-            <div class="works-item" style="background-image: url(images/works/tema.jpg)">
-              <div class="works-item__inner">
-                <div class="works-item__title">
-                  SMM-агенство
-                  Артёма Алексеева
-                </div>
-                <div class="works-item_descr">
-                  Лендинг под ключ <br>
-                  для SMM-агенства
-                </div>
-              </div>
-            </div>
-            <div class="works-item" style="background-image: url(images/works/alta.jpg)">
-              <div class="works-item__inner">
-                <div class="works-item__title">
-                  Альта М
-                </div>
-                <div class="works-item_descr">
-                  Лендинг под ключ <br>
-                  для транспортной компании
-                </div>
-              </div>
-            </div>
-            <div class="works-item" style="background-image: url(images/works/zaitova.jpg)">
-              <div class="works-item__inner">
-                <div class="works-item__title">Елена Заитова</div>
-                <div class="works-item_descr">
-                  Лендинг под ключ для настоящего психолога Елены Заитовой
-                </div>
-              </div>
-            </div>
-
-            <div class="works-item__null">
-              <div class="works-item__null-inner">
-                <div class="null-title">
-                  Здесь будет <br>
-                  ваш проект
-                </div>
-                <button class="null-btn">
-                  Сделайте мне проект
-                </button>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="offer section">
-      <div class="container">
-        <div class="offer__inner">
-          <h2 class="offer__title">
-            Ответьте на несколько вопросов и получите расчет вашего проекта,
-            а также домен и хостинг в подарок!
+      <section class="first-step section" style="background-image: url(images/first-step-bg.jpg);">
+        <div class="container">
+          <h2 class="first-step__title title">
+            Первый шаг к завоеванию доверия клиентов — сделать так, чтобы ваш сайт выглядел профессионально.
           </h2>
-          <a href="" class="offer__btn btn">
-            узнать стоимость проекта
-          </a>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="customers section">
-      <div class="container">
-        <div class="customers__inner">
-          <div class="title-right">
-            <div class="customers_suptitle suptitle">
-              Отзывы
+      <section class="advantages section">
+        <div class="container">
+          <div class="advantages__inner">
+            <div class="advantages__view">
+              <div class="tab-content">
+                <div class="tab active" data-tab="1">
+                  <!-- <img alt="" src="images/advantages/1.svg" data-src="images/advantages/1.svg"> -->
+                  <div id="anim1" class="tab-image"></div>
+                  <p>
+                    Созданный сайт одинаково работает
+                    на любом типе устройств, и остаётся
+                    всегда удобным для использования, независимо от сложности его структуры
+                  </p>
+                </div>
+                <div class="tab" data-tab="2">
+                  <div id="anim2" class="tab-image"></div>
+                  <p>В разработке всегда присутствует логичность структуры, необходимость одного элемента для другого, и
+                    отсутствует лишний балласт. </p>
+                </div>
+                <div class="tab" data-tab="3">
+                  <div id="anim3" class="tab-image"></div>
+                  <p>
+                    Наша команда постоянно внедряет актуальные новинки, в том числе и многоуровневые анимации, следит за
+                    трендами и основными направлениями в дизайне.
+                  </p>
+                </div>
+                <div class="tab" data-tab="4">
+                  <div id="anim4" class="tab-image"></div>
+                  <p>
+                    Самое важное в любом бизнесе,
+                    это взаимодействие. Разработчик находится в постоянном общении с дизайнером,
+                    что значительно уменьшает сроки проекта.
+                  </p>
+                </div>
+                <div class="tab" data-tab="5">
+                  <div id="anim5" class="tab-image"></div>
+                  <p>
+                    Работа над проектом начинается сразу после брифинга, а чёткое разделение на этапы позволяет
+                    завершить его в назначенный срок.
+                  </p>
+                </div>
+                <div class="tab" data-tab="6">
+                  <div id="anim6" class="tab-image"></div>
+                  <p>
+                    Более 20 разноплановых сайтов только за 2019 год, которые уже приносят прибыль их владельцам.
+                  </p>
+                </div>
+              </div>
             </div>
-            <h2 class="customers__title title">
-              Что говорят клиенты
-            </h2>
+            <div class="advantages__info">
+              <h2 class="advantages__title title">Преимущества</h2>
+              <div class="tabs">
+                <div class="tab" data-tab="1">
+                  <img alt="" src="images/advantages/1.svg" data-src="images/advantages/1.svg">
+                  <p>
+                    Комплексный
+                    опыт
+                  </p>
+                </div>
+                <div class="tab" data-tab="2">
+                  <img alt="" src="images/advantages/2.svg" data-src="images/advantages/2.svg">
+                  <p>
+                    Взаимосвязь
+                  </p>
+                </div>
+                <div class="tab" data-tab="3">
+                  <img alt="" src="images/advantages/3.svg" data-src="images/advantages/3.svg">
+                  <p>
+                    Актуальность
+                    и свежесть
+                  </p>
+                </div>
+                <div class="tab" data-tab="4">
+                  <img alt="" src="images/advantages/4.svg" data-src="images/advantages/4.svg">
+                  <p>
+                    Оперативность
+                  </p>
+                </div>
+                <div class="tab" data-tab="5">
+                  <img alt="" src="images/advantages/5.svg" data-src="images/advantages/5.svg">
+                  <p>
+                    Гибкость
+                    сроков
+                  </p>
+                </div>
+                <div class="tab" data-tab="6">
+                  <img alt="" src="images/advantages/6.svg" data-src="images/advantages/6.svg">
+                  <p>
+                    Портфолио
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="customers__slider">
-            <div class="div">
-              <p class="customers__text">
-                Я психолог, и для поиска новых клиентов мне нужен был сайт, из которого потенциальные клиенты могли бы
-                узнать краткую информацию обо мне: образование, методы и результаты работы, расценки. Вячеслав
-                ответственно подошёл к делу, внимательно выслушал те задачи, которые я перед ним поставила, а затем
-                выполнил их согласно моим требованиям. В процессе работы также шла постоянная коммуникация для того,
-                чтобы
-                сайт получился максимально похожим на тот, что задумала я.
-              </p>
+          <!-- /.advantages__inner -->
+        </div>
+        <!-- /.container -->
+      </section>
+
+      <section class="site section">
+        <div class="container">
+          <div class="site__inner">
+            <div class="site-left-menu"></div>
+            <div class="site__reason">
+              <h2 class="site__title title">
+                Зачем бизнесу сайт?
+              </h2>
+              <div class="site__text">
+                Сайт — это ваш деловой партнёр, продюсер
+                и менеджер по продажам, который может взять
+                на себя львиную долю работы, связанную с поиском клиентов, продажей ваших продуктов и услуг.
+              </div>
+
             </div>
-            <div class="div">
-              <p class="customers__text">
-                Здравствуйте, меня зовут Артём Алексеев, я являюсь руководителем авторского SMM-агенства. Для
-                привлечения новых клиентов в бизнес, презентации услуг и тарифов своего агенства мне понадобился сайт.
-                Спустя некоторое время поисков я познакомился с Вячеславом, он провел детальную консультацию и предложил
-                несколько вариантов модели будущего сайта. Подробно обсудив будущий проект, учтя все мои пожелания и
-                требования
-                к сайту он приступил к работе. Спустя 14 дней после согласования всех деталей и утверждения основного
-                концепта сайт был готов! До сих пор он помогает генерировать систематический поток клиентов в мой бизнес
-                и радует моих заказчиков своей простотой и приятным дизайном! Хочется подчеркнуть, что Вячеслав отнесся
-                к работе с максимальной ответственностью, и в период ее выполнения постоянно был на связи для внесения
-                доработок и корректировок в проект. Со следующими проектами буду обращаться именно к нему!
-              </p>
+            <div class="site__list">
+              <ul>
+                <li data-id="1">1 Имидж компании</li>
+                <li data-id="2">2 Отсутствие гонки</li>
+                <li data-id="3">3 Важно для клиентов</li>
+                <li data-id="4">4 Подробная аналитика</li>
+                <li data-id="5">5 Собственная территория</li>
+                <li data-id="6">6 Бесконечные расширения</li>
+                <li data-id="7">7 Привлечение новых клиентов</li>
+              </ul>
+              <div class="site-item__wrap">
+                <div class="site-item" data-id="1">
+                  <p>
+                    Наличие сайта показывает клиентам, что компания беспокоится о своем имидже и хочет чтобы
+                    к ней относились серьезно.
+                  </p>
+                  <span class="close"></span>
+                </div>
+                <div class="site-item" data-id="2">
+                  <p>
+                    На сайте нет нужды писать посты каждый день, как в социальных сетях. Достаточно один раз правильно
+                    настроить сайт, чтобы он работал.
+                  </p>
+                  <span class="close"></span>
+                </div>
+                <div class="site-item" data-id="3">
+                  <p>
+                    Клиентам на сайте проще искать информацию. К тому же, сайт - гарант надежности. Его намного сложнее
+                    создать, чем группу в социальных сетях.
+                  </p>
+                  <span class="close"></span>
+                </div>
+                <div class="site-item" data-id="4">
+                  <p>
+                    К сайту можно подключить, систему аналитики.
+                    С помощью неё можно узнать всё: куда кликают клиенты, куда смотрят, какие разделы чаще посещают.
+                  </p>
+                  <span class="close"></span>
+                </div>
+                <div class="site-item" data-id="5">
+                  <p>
+                    Страница в соцсетях, как съемная квартира — принадлежит не вам. Полностью привязываться
+                    к ним — хождение по тонкому льду. Вспомните
+                    хотя бы «умную ленту», благодаря которой, многие просто перестали существовать в новостной ленте.
+                  </p>
+                  <span class="close"></span>
+                </div>
+                <div class="site-item" data-id="6">
+                  <p>
+                    Дизайн и структуру сайта, можно сделать по любому вкусу. Можно подключить форум или магазин,
+                    закрытые
+                    разделы, создать рассылку.
+                  </p>
+                  <span class="close"></span>
+                </div>
+                <div class="site-item" data-id="7">
+                  <p>
+                    Как минимум 30% ваших клиентов узнает о вас благодаря сайту. Со временем этот показатель будет
+                    только
+                    расти. Учитывая популярность интернета, сайт окупит себя через пару месяцев, а то и недель.
+                  </p>
+                  <span class="close"></span>
+                </div>
+              </div>
             </div>
-            <div class="div">
+          </div>
+        </div>
+      </section>
+
+      <section class="works section">
+        <div class="container">
+          <div class="works__inner">
+
+            <div class="title-left">
+              <div class="suptitle">Портфолио</div>
+              <h2 class="title works__title">
+                Последние работы
+              </h2>
+            </div>
+
+            <div class="works__item-wrap">
+              <a href="http://alekseevsmm.ru/" class="works-item" style="background-image: url(images/works/tema.jpg)">
+                <div class="works-item__inner">
+                  <div class="works-item__title">
+                    SMM-агенство
+                    Артёма Алексеева
+                  </div>
+                  <div class="works-item_descr">
+                    Лендинг под ключ <br>
+                    для SMM-агенства
+                  </div>
+                </div>
+              </a>
+              <a href="https://alta-m.spb.ru/" class="works-item" style="background-image: url(images/works/alta.jpg)">
+                <div class="works-item__inner">
+                  <div class="works-item__title">
+                    Альта М
+                  </div>
+                  <div class="works-item_descr">
+                    Лендинг под ключ <br>
+                    для транспортной компании
+                  </div>
+                </div>
+              </a>
+              <a href="http://elenazaitova.com/" class="works-item"
+                style="background-image: url(images/works/zaitova.jpg)">
+                <div class="works-item__inner">
+                  <div class="works-item__title">Елена Заитова</div>
+                  <div class="works-item_descr">
+                    Лендинг под ключ для настоящего психолога Елены Заитовой
+                  </div>
+                </div>
+              </a>
+
+              <div class="works-item__null">
+                <div class="works-item__null-inner">
+                  <div class="null-title">
+                    Здесь будет <br>
+                    ваш проект
+                  </div>
+                  <button class="null-btn">
+                    Сделайте мне проект
+                  </button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="offer section">
+        <div class="container">
+          <div class="offer__inner">
+            <div class="anim-arrow"></div>
+            <h2 class="offer__title">
+              Ответьте на несколько вопросов и получите расчет вашего проекта,
+              а также домен и хостинг в подарок!
+            </h2>
+            <button class="offer__btn btn">
+              <span>узнать стоимость проекта</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="customers section">
+        <div class="container">
+          <div class="customers__inner">
+            <div class="title-right">
+              <div class="customers_suptitle suptitle">
+                Отзывы
+              </div>
+              <h2 class="customers__title title">
+                Что говорят клиенты
+              </h2>
+            </div>
+            <div class="customers__slider">
+              <div class="div">
+                <p class="customers__text">
+                  Я психолог, и для поиска новых клиентов мне нужен был сайт, из которого потенциальные клиенты могли бы
+                  узнать краткую информацию обо мне: образование, методы и результаты работы, расценки. Вячеслав
+                  ответственно подошёл к делу, внимательно выслушал те задачи, которые я перед ним поставила, а затем
+                  выполнил их согласно моим требованиям. В процессе работы также шла постоянная коммуникация для того,
+                  чтобы
+                  сайт получился максимально похожим на тот, что задумала я.
+                </p>
+              </div>
+              <div class="div">
                 <p class="customers__text">
                   Здравствуйте, меня зовут Артём Алексеев, я являюсь руководителем авторского SMM-агенства. Для
                   привлечения новых клиентов в бизнес, презентации услуг и тарифов своего агенства мне понадобился сайт.
-                  Спустя некоторое время поисков я познакомился с Вячеславом, он провел детальную консультацию и предложил
+                  Спустя некоторое время поисков я познакомился с Вячеславом, он провел детальную консультацию и
+                  предложил
                   несколько вариантов модели будущего сайта. Подробно обсудив будущий проект, учтя все мои пожелания и
                   требования
                   к сайту он приступил к работе. Спустя 14 дней после согласования всех деталей и утверждения основного
-                  концепта сайт был готов! До сих пор он помогает генерировать систематический поток клиентов в мой бизнес
-                  и радует моих заказчиков своей простотой и приятным дизайном! Хочется подчеркнуть, что Вячеслав отнесся
+                  концепта сайт был готов! До сих пор он помогает генерировать систематический поток клиентов в мой
+                  бизнес
+                  и радует моих заказчиков своей простотой и приятным дизайном! Хочется подчеркнуть, что Вячеслав
+                  отнесся
                   к работе с максимальной ответственностью, и в период ее выполнения постоянно был на связи для внесения
                   доработок и корректировок в проект. Со следующими проектами буду обращаться именно к нему!
                 </p>
               </div>
-          </div>
-          <div class="customers__rate">
-            <img data-src="images/clients/rate.png" src="images/clients/rate.png" alt="" class="customers__rating">
-            <div class="rate-slider">
-              <span class="rate-slider__item" data-slide="0">
-                <img data-src="images/clients/zaitova.jpg" src="images/clients/zaitova.jpg" alt="">
-              </span>
-              <span class="rate-slider__item" data-slide="1">
-                <img data-src="images/clients/tema.jpg" src="images/clients/tema.jpg" alt="">
-              </span>
-              <span class="rate-slider__item" data-slide="2">
+              <div class="div">
+                <p class="customers__text">
+                  Здравствуйте, меня зовут Артём Алексеев, я являюсь руководителем авторского SMM-агенства. Для
+                  привлечения новых клиентов в бизнес, презентации услуг и тарифов своего агенства мне понадобился сайт.
+                  Спустя некоторое время поисков я познакомился с Вячеславом, он провел детальную консультацию и
+                  предложил
+                  несколько вариантов модели будущего сайта. Подробно обсудив будущий проект, учтя все мои пожелания и
+                  требования
+                  к сайту он приступил к работе. Спустя 14 дней после согласования всех деталей и утверждения основного
+                  концепта сайт был готов! До сих пор он помогает генерировать систематический поток клиентов в мой
+                  бизнес
+                  и радует моих заказчиков своей простотой и приятным дизайном! Хочется подчеркнуть, что Вячеслав
+                  отнесся
+                  к работе с максимальной ответственностью, и в период ее выполнения постоянно был на связи для внесения
+                  доработок и корректировок в проект. Со следующими проектами буду обращаться именно к нему!
+                </p>
+              </div>
+            </div>
+            <div class="customers__rate">
+              <img data-src="images/clients/rate.png" src="images/clients/rate.png" alt="" class="customers__rating">
+              <div class="rate-slider">
+                <span class="rate-slider__item" data-slide="0">
+                  <img data-src="images/clients/zaitova.jpg" src="images/clients/zaitova.jpg" alt="">
+                </span>
+                <span class="rate-slider__item" data-slide="1">
+                  <img data-src="images/clients/tema.jpg" src="images/clients/tema.jpg" alt="">
+                </span>
+                <span class="rate-slider__item" data-slide="2">
 
-              </span>
+                </span>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="promise section active">
-      <div class="container">
-        <div class="promise__inner">
-          <h2 class="promise__title title">
-            Гарантии
-          </h2>
-          <div class="promise-item__wrap">
-            <div class="promise-item">
-              <img data-src="images/promise/promise1.png" src="images/promise1.png" alt="">
-              <div class="promise-item__title">Гарантия сроков</div>
-              <p class="promise-item__text">
-                Если вдруг так случится,
-                что мы нарушим сроки,
-                то за каждый просроченный день вы получите 1000 рублей.
-              </p>
-            </div>
-            <div class="promise-item">
-              <img data-src="images/promise/promise2.png" alt="">
-              <div class="promise-item__title">Гарантия цены</div>
-              <p class="promise-item__text">
-                Стоимость, просчитанная нами будет финальной,
-                в противном случае
-                мы покроем все доп. расходы.
-              </p>
-            </div>
-            <div class="promise-item">
-              <img data-src="images/promise/promise3.png" alt="">
-              <div class="promise-item__title">Договор</div>
-              <p class="promise-item__text">
-                Все гарантии и условия работы прописываются
-                в договоре, поэтому
-                вы защищены законом РФ.
-              </p>
+      <section class="promise section">
+        <div class="container">
+          <div class="promise__inner">
+            <h2 class="promise__title title">
+              Гарантии
+            </h2>
+            <div class="promise-item__wrap">
+              <div class="promise-item">
+                <img data-src="images/promise/promise1.png" src="images/promise/promise1.png" alt="">
+                <div class="promise-item__title">Гарантия сроков</div>
+                <p class="promise-item__text">
+                  Если вдруг так случится,
+                  что мы нарушим сроки,
+                  то за каждый просроченный день вы получите 1000 рублей.
+                </p>
+              </div>
+              <div class="promise-item">
+                <img data-src="images/promise/promise2.png" alt="">
+                <div class="promise-item__title">Гарантия цены</div>
+                <p class="promise-item__text">
+                  Стоимость, просчитанная нами будет финальной,
+                  в противном случае
+                  мы покроем все доп. расходы.
+                </p>
+              </div>
+              <div class="promise-item">
+                <img data-src="images/promise/promise3.png" alt="">
+                <div class="promise-item__title">Договор</div>
+                <p class="promise-item__text">
+                  Все гарантии и условия работы прописываются
+                  в договоре, поэтому
+                  вы защищены законом РФ.
+                </p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+
+      <section class="services section">
+        <div class="container">
+          <div class="services__inner">
+            <div class="title-right">
+              <h2 class="services__title title">Услуги</h2>
+            </div>
+            <div class="services-tariff__wrap">
+              <div class="services-tariff">
+                <div class="services-tariff__name">SMALL</div>
+                <div class="services-tariff__price">от <span>10000</span> руб.</div>
+                <ul class="services-tariff__list">
+                  <li>такой, как этот</li>
+                  <li>одностраничный</li>
+                  <li>быстрое производство</li>
+                  <li>быстро приносит результат</li>
+                </ul>
+                <button class="services-tariff__btn btn btn-small">
+                  <span>Заказать</span>
+                </button>
+              </div>
+              <div class="services-tariff">
+                <div class="services-tariff__name">Medium</div>
+                <div class="services-tariff__price">от <span>20000</span> руб.</div>
+                <ul class="services-tariff__list">
+                  <li>многостраничный</li>
+                  <li>для большинства ниш</li>
+                  <li>немного дольше делать</li>
+                  <li>для нескольких товаров/услуг</li>
+                </ul>
+                <button class="services-tariff__btn btn btn-medium">
+                  <span>Заказать</span>
+                </button>
+              </div>
+              <div class="services-tariff">
+                <div class="services-tariff__name">Large</div>
+                <div class="services-tariff__price">от <span>30000</span> руб.</div>
+                <ul class="services-tariff__list">
+                  <li>многостранчный</li>
+                  <li>интернет-магазин</li>
+                  <li>для большинства ниш</li>
+                  <li>для большого кол-ва товаров</li>
+                </ul>
+                <button class="services-tariff__btn btn btn-large">
+                  <span>Заказать</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer section">
+        <div class="container">
+          <div class="footer__inner">
+            <div class="title-left">
+              <h2 class="footer__title title">Обсудить проект</h2>
+              <div class="footer__subtitle">
+                Заполните форму и наш менеджер свяжется
+                с вами для консультации и первого знакомства
+              </div>
+            </div>
+            <form action="" class="footer__form">
+              <!-- Hidden Required Fields -->
+              <input type="hidden" name="project_name" value="Designer">
+              <input type="hidden" name="admin_email" value="info@lvan-dyadyura.ru">
+              <input type="hidden" name="form_subject" value="Заявка с сайта">
+              <!-- END Hidden Required Fields -->
+              <div class="line">
+                <input name="username" type="text" placeholder="Ваше имя">
+                <!-- <label for="">Ваше имя</label> -->
+              </div>
+              <div class="line">
+                <input class="phone" name="phone" type="tel" placeholder="Ваш номер телефона">
+                <!-- <label for="">Ваш номер телефона</label> -->
+              </div>
+              <div class="line line2">
+                <input name="about" type="text" placeholder="Расскажите коротко о проекте (не обязательно)">
+                <!-- <label for="">Расскажите коротко о проекте (не обязательно)</label> -->
+              </div>
+              <div class="footer-flex">
+                <button class="btn button"><div class="div1"></div><div class="div2"></div>Свяжитесь со мной</button>
+
+                <span class="footer__signature">
+                  <img src="images/question.png" alt="">
+                  <p> Предоставив свои персональные данные Покупатель дает полное согласие на обработку, хранение и
+                    использование своих персональных данных на основании Ф№ №152 ФЗ "О персональных данных" от
+                    27.07.2006
+                    г.
+                  </p>
+                </span>
+
+              </div>
+            </form>
+          </div>
+        </div>
+      </footer>
+    </div>
   </div>
+
 
 
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="js/libs.min.js"></script>
+  <script src="js/jquery.maskedinput.min.js"></script>
+  <script src="js/bodymovin.min.js"></script>
   <script src="js/main.js"></script>
+  <script>
+  
+  </script>
 </body>
 
 </html>

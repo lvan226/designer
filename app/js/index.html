@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>amimate</title>
+
+</head>
+<body>
+
+	<div id="bm" style="width: 200px;"></div>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.5.9/lottie_html.min.js"></script>
+	<script>
+  
+  var animData = {
+        wrapper: document.getElementById('bm'),
+        animType: 'svg',
+        loop: true,
+        prerender: false,
+        autoplay: true,
+        path: 'Interconnection.json'
+
+    };
+    var anim = bodymovin.loadAnimation(animData);
+
+
+</script>
+</body>
+</html>

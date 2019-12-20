@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36.9 21.79">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #da332e;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1 {
+        stroke-width: 1.48px;
+      }
+
+      .cls-2 {
+        stroke-linecap: round;
+        stroke-width: 1.5px;
+      }
+    </style>
+  </defs>
+  <title>Ресурс 2</title>
+  <g id="Слой_2" data-name="Слой 2">
+    <g id="Layer_1" data-name="Layer 1">
+      <g>
+        <circle class="cls-1" cx="4.54" cy="17.24" r="3.8"/>
+        <circle class="cls-1" cx="15.95" cy="4.54" r="3.8"/>
+        <circle class="cls-1" cx="32.35" cy="9.14" r="3.8"/>
+        <line class="cls-2" x1="7.51" y1="13.89" x2="12.89" y2="7.89"/>
+        <line class="cls-2" x1="20.21" y1="5.73" x2="27.93" y2="7.89"/>
+      </g>
+    </g>
+  </g>
+</svg>

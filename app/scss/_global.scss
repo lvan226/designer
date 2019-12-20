@@ -13,7 +13,9 @@ body {
   line-height: 24px;
   color: #000;
   background: #fff url(../images/fon-body.png) center repeat;
-  background-size: cover;
+  // background-size: cover;
+  position: relative;
+  overflow-x: hidden;
 }
 
 img {
@@ -39,6 +41,7 @@ li {
 
 a {
   display: inline-block;
+  text-decoration: none;
 }
 
 .container {

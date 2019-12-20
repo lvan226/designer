@@ -18,6 +18,22 @@
   font-family: 'Georgia';
   font-weight: 400;
 }
+@mixin fg700 {
+  font-family: 'Georgia';
+  font-weight: 700;
+}
+@mixin ui300 {
+  font-family: 'SF UI  Text';
+  font-weight: 300;
+}
+@mixin ui400 {
+  font-family: 'SF UI  Text';
+  font-weight: 400;
+}
+@mixin ui700 {
+  font-family: 'SF UI  Text';
+  font-weight: 700;
+}
 @mixin full {
   height: 100vh;
 }
