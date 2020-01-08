@@ -32,12 +32,12 @@ $(function () {
 		afterRender: function () {
 			var pluginContainer = this;
 		},
-		afterResponsive: function (isResponsive) {
-			// alert("Is responsive: " + isResponsive);
-			$('.wrap-burger').addClass("white");
-			$('.header').addClass('white');
-			$('.header-burger').addClass('white');
-		},
+		// afterResponsive: function (isResponsive) {
+		// 	// alert("Is responsive: " + isResponsive);
+		// 	$('.wrap-burger').addClass("white");
+		// 	$('.header').addClass('white');
+		// 	$('.header-burger').addClass('white');
+		// },
 		afterResize: function (width, height) {
 			var pluginContainer = this;
 			// alert( $(window).height() );
