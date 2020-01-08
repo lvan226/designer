@@ -277,7 +277,7 @@ $(function () {
 			let f = $(form);
 			$.ajax({
 				type: "POST",
-				url: "../mail2.php", //Change
+				url: "../telegram.php", //Change
 				data: $(form).serialize()
 			}).done(function () {
 				setTimeout(function () {
@@ -337,7 +337,7 @@ $(function () {
 			submitHandler: function (form) {
 				$.ajax({
 					type: "POST",
-					url: "../mail2.php", //Change
+					url: "../telegram.php", //Change
 					data: $(form).serialize()
 				}).done(function () {
 					setTimeout(function () {

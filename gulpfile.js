@@ -99,6 +99,12 @@ gulp.task('export', function () {
 
   let buildPhp = gulp.src('app/**/*.php')
     .pipe(gulp.dest('dist'));
+
+  let buildJson = gulp.src('app/**/*.json')
+    .pipe(gulp.dest('dist'));
+
+  let buildHtac = gulp.src('app/**/*.htaccess')
+    .pipe(gulp.dest('dist'));
 });
 
 gulp.task('watch', function () {
